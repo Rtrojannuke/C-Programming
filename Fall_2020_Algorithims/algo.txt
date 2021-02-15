@@ -1,0 +1,45 @@
+Running times: is how long it takes to run
+Pseudocode: means not real programm usually used to plan out code which can be in many forms e.g flowcharts, chronological writing out of code process
+O: used to indicate the on the order of
+big O notation is used to describe  upperbound(maximum) on running time of an algorithim :
+O(n**2)
+O(nlogn)
+O(n)
+O(log n)
+O(1)
+Ω: is used natation to describe  lowerbound (minimum)on running time of an algorithim :
+Ω(n**2)
+Ω(nlogn)
+Ω(n)
+Ω(log n)
+Ω(1)
+Linear Search: is the type of algorithim search which starts at the beginning of the search data and systematically check each data until it finds the specific data user is looking for.
+    upperbound of Linear search: O(n): might be the last element in the search data
+    lowerbound: Ω(1): might be the first element in the search data
+Binary Search: breaks down the search down into smaller chunks/parts to find the item at a faster time/rate.(Sorted list are usually faster with binary search. Binary search is faster than liner search
+    Upperbound of Binary search: O(log n): the maximum no of time to split into half
+    Lowerbound: Ω(1): might be the half point
+Strings are not checked alphabetically but using their ASCII values
+In computer programming all non-zero values is considered as true only zero is false
+Data structure is a data type that has some structure to it(i.e has one or more value inside it )
+Sorting: arranging in an ordered sequence is called "sorting".
+Sorting is a common operation in many applications, and efficient algorithms to perform it have been developed.
+Selection sorting: The selection sort algorithm sorts an array by repeatedly finding the minimum element (considering ascending order) from unsorted part and putting it at the beginning.
+    Upperbound of selection sorting: O(n**2)
+    lowerbound of selection sorting: Ω(n**2)
+Bubble sort: Bubble sort, sometimes referred to as sinking sort, is a simple sorting algorithm that repeatedly steps through the list, compares adjacent elements and swaps them if they are in the wrong order.
+Bubble sort compare values and change places(swap) of the values/data in ascending order(e.g 6,3 is sorted to 3,6 since 3 is smaller it is swapped). Thereby the biggest number in the values moves(bubbles) it's way to the end.
+    Upperbound of selection sorting: O(n**2)
+    lowerbound of selection sorting: Ω(n)
+Recursion: is the ability of a function to call itself
+Merge sort:
+    upperbound of Merge Sort: O(n logn)
+    lowerbound of merge sort: Ω(n log n)
+When an algorithim has both the same lowerbound and upperbound running time it can be denoted by using the geek alphabet theta(θ), therefore selection sort and Merge sort can be described as
+    selection sort: θ(n**2)
+    merge sort: θ(n log n)
+
+
+
+
+
